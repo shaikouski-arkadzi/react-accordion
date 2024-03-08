@@ -1,5 +1,5 @@
 ## Compound Components
-1. `useAccordionContext` - protection against attempts to use a hook outside of children
+1. `useAccordionContext` - protection against attempts to use a children outside of parent(AccordionItem outside Accordion)
 1. `Accordion.Item = AccordionItem;` - allows you to call the **AccordionItem** component via a call `<Accordion.Item >`
 
 ## Render Props
